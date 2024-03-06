@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    color: hsl(223, 100%, 64%);
+}
+form {
+    background-color: #fff;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 10px;
+}
+label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+button {
+    font-size: 1.5em;
+    background-color: hsl(0, 84%, 70%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    color: #000;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+button:hover{
+    background-color: hsl(0, 84%, 60%);
+    color: #fff;
+}
+#result {
+    font-size: 1.5em;
+}
